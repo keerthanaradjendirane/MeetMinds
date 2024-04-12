@@ -9,7 +9,7 @@ import { StreamCall, StreamTheme } from '@stream-io/video-react-sdk';
 import { useState } from 'react';
 
 
-const meeting = ({ params :{id}}: { params: { id: string } }) => {
+const Meeting = ({ params :{id}}: { params: { id: string } }) => {
 
   const {user,isLoaded} = useUser();
   const [isSetupComplete, setisSetupComplete] = useState(false)
@@ -32,4 +32,4 @@ const meeting = ({ params :{id}}: { params: { id: string } }) => {
   )
 }
 
-export default meeting
+export default Meeting
