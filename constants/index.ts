@@ -24,6 +24,10 @@ export const sidebarLinks =[
         route: '/personal-room',
         imgUrl: '/icons/add-personal.svg',
     },
+    {
+        label:'Chatbot',
+        route: 'https://bots.kore.ai/webclient/1502dc87208e4a86853487a5fd51039dd749776d6b5047cd8f385c21254f7d22st32',
+    },
 ]
 
 export const avatarImages = [
