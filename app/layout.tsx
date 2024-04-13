@@ -40,6 +40,9 @@ export default function RootLayout({
       <body className={`${inter.className} bg-dark-2`}>
         {children}
         <Toaster />
+        <link rel='stylesheet' href='https://bots.kore.ai/webclient/UI/dist/kore-ai-sdk.min.css'></link>
+<script src='https://bots.kore.ai/api/platform/websdkjs/1502dc87208e4a86853487a5fd51039dd749776d6b5047cd8f385c21254f7d22st32'></script>
+<script>KoreSDK.show(KoreSDK.chatConfig);</script>
         </body>
       </ClerkProvider>
     </html>
